@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(0,51,153);
+    background: linear-gradient(-5deg, rgba(0,51,153,1) 48%, rgba(7,55,214,1) 50%);
+}
+
+.main{
+    height: 663px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    border-radius: 20px;
+    height: 320px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.349);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.main-container p{
+    color:#003399;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.container-barras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    color:#003399;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    height: 28px;
+    width: 325px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 0 5px 0 5px;
+}
+
+span{
+    position: relative;
+}
+
+span img{
+    height: 17px;
+}
+
+.icon-email, .icon-senha{
+    top: -22px;
+    left: 150px;
+    margin: 0 auto;
+}
+
+.barra-email, .barra-senha{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-submit input{
+    width: 100px;
+    color: #003399;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    transition: 300ms ease-in-out;   
+
+}
+
+.btn-submit input:hover{
+    background-color: #00339921;
+}
